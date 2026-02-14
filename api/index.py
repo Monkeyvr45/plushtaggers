@@ -1,7 +1,7 @@
 import requests
 from flask import Flask, jsonify, request
 import time
-app = Flask(__name__)
+app = Flask(__plush runners__)
 title = "157486"
 secret = "UJT7R6CZFXSFTN8T8BJ56GKH39XFDDC44C9ZCHZCTZEMZF1S6K"   
 def GetUserId(ticket):return ticket[:16].replace("'", "").replace("-", "").replace(".", "")
